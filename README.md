@@ -9,3 +9,7 @@ Stack-Lite is an application that allows users to ask questions and provide answ
 - HTML
 - CSS
 - Javascript
+
+# Github pages link
+
+[site in action](https://luqee.github.io/Stack-Lite/)
