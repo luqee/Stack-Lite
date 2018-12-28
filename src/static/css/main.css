@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 0;
+}
+/* top navigation menu */
+nav.top-menu {
+    width: 100%;
+    border-top: 3px solid #F48024;
+    background-color: #fafafb;
+    height: 50px;
+}
+nav.top-menu .container{
+    display: flex;
+    margin: 0 20px;
+    height: inherit;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+}
+nav.top-menu div#logo {
+}
+nav.top-menu div#auth-btns {
+    margin-left: auto;
+}
+nav.top-menu div#auth-btns button{
+    background-color: #0095ff;
+    border: 0;
+    padding: 5px;
+    color: #ffffff;
+}
+nav.top-menu div#auth-btns a{
+    text-decoration: none;
+}

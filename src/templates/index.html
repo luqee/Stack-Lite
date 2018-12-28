@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Stack-Lite</title>
-        <link rel="stylesheet" href="./ui/static/css/main.css">
+        <link rel="stylesheet" href="../static/css/main.css">
     </head>
     <body>
       <div class="wrap">
-        <nav>
-            <div id="logo">Stack-Lite</div>
-            <div id="auth-btns">
-                <button><a href="./ui/templates/userRegister.html">Signup</a></button>
-                <button><a href="./ui/templates/userLogin.html">Login</a></button>
+        <nav class="top-menu">
+            <div class="container">
+                <div id="logo">Stack-Lite</div>
+                <div id="auth-btns">
+                    <a href="userRegister.html"> <button>Signup</button> </a>
+                    <a href="userLogin.html"> <button>Login</button> </a>
+                </div>
             </div>
         </nav>
         <header>
@@ -24,7 +26,7 @@
         <div class="content" id="landing-content">
             <div class="questions-panel">
                 <h2>Top Questions</h2>
-                <button><a href="./ui/templates/userAsk.html">Ask Question</a></button>
+                <button><a href="userAsk.html">Ask Question</a></button>
             </div>
             <hr>
             <div class="questions">
@@ -54,6 +56,6 @@
             <p>Website designed and developed by <span>Luqee Creations</span>.</p>
         </footer>
       </div>
-      <script src="./ui/static/js/index.js"></script>
+      <script src="../static/js/index.js"></script>
     </body>
 </html>
