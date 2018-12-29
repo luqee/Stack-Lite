@@ -36,6 +36,9 @@ nav.top-menu div#auth-btns button{
     padding: 5px;
     color: #ffffff;
 }
+nav.top-menu div#auth-btns button:hover{
+    cursor: pointer;   
+}
 nav.top-menu div#auth-btns a{
     text-decoration: none;
 }
@@ -76,7 +79,16 @@ div.header-signup form .form-row label{
 div.header-signup form .form-row input{
     flex-basis: 70%;
     padding-left: 10px;
-} 
+}
+
+form .form-row button{
+    border: 1px solid #e6dede;
+    background: transparent;
+    color: #e4dddd
+}
+form .form-row button:hover{
+    cursor: pointer;
+}
 
 /* Style the home page content area */
 div.content{
