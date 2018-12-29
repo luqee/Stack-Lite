@@ -77,3 +77,34 @@ div.header-signup form .form-row input{
     flex-basis: 70%;
     padding-left: 10px;
 } 
+
+/* Style the home page content area */
+div.content{
+    margin: 10px 200px;
+}
+div.content .questions-panel{
+    display: flex;
+}
+div.content .questions-panel h2{
+    margin: 0;
+}
+div.content .questions-panel a{
+    margin-left: auto;
+}
+div.content .questions-panel button:hover{
+    cursor: pointer;
+}
+div.content .questions-panel button{
+    background-color: #0095ff;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+}
+div.content .questions {
+}
+div.content .questions .question{
+    border-bottom: 1px solid #e6dede;
+}
+footer{
+    text-align: center;
+}
